@@ -2,7 +2,7 @@ require 'caesar_cipher'
 
 RSpec.describe CaesarCipher do
 
-	cipher = CaesarCipher.new
+  cipher = CaesarCipher.new
 
   describe '#shift' do
 
