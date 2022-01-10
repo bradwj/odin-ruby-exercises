@@ -1,7 +1,7 @@
 def substrings(text, dictionary)
-  
+
   lower_text = text.downcase
-  hash = Hash.new(0)
+  hash = {}
 
   dictionary.each do |word|
     matches = lower_text.scan(word).length
